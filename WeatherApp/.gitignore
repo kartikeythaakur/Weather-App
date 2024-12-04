@@ -1,0 +1,11 @@
+# Ignore build directory
+target/
+
+# Ignore IntelliJ IDEA files
+.idea/
+
+# Ignore Maven wrapper files
+.mvn/
+
+# Ignore log files
+*.log

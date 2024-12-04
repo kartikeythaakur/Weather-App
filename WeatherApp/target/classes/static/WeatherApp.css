@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Parkinsans", sans-serif;
+
+}
+
+/* Body Styling */
+body {
+  /* font-family: 'Lato', sans-serif; */
+  background: linear-gradient(to bottom, #87CEEB, #f0f8ff);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+}
+
+/* Container Styling */
+.container {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchbox input{
+  width: 250px;
+}
+
+.searchbox{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#searchboxy{
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.searchbox button {
+  background-color: #007BFF;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchbox button:hover {
+  background-color: #0056b3;
+}
+
+.material-icons {
+  font-size: 20px;
+}
+
+/* City and Temperature Info */
+.city,
+.temprature {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+/* Secondary Container */
+.sec-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 90%;
+}
+
+.box {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logos {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.weathervalue,
+.feelsvalue,
+.speedvalue,
+.humidvalue {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007BFF;
+}

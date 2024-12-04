@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="WeatherApp.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="search">
+
+      <form action="" class="searchbox">
+        <input type="text" id="searchboxy" placeholder="Search for a location">
+        <button type="submit" id="searchbutton"><i class="material-icons">search</i></button>
+      </form>
+
+      <p id="cities" class="city">Hamirpur, Himachal Pradesh</p>
+
+    </div>
+  </div>
+
+  <!-- Secondary container  -->
+  <div class="sec-container">
+
+    <!-- weather container -->
+    <div id="weather" class="box">
+      <img id="weatherimage" src="images/weather-app.png" alt="" class="logos">
+      <p id="weathers" class="desc">Weather</p>
+      <p id="weatherval" class="weathervalue">Sunny</p>
+    </div>
+
+    <!-- feelslike container -->
+    <div id="feelslike" class="box">
+      <img src="images/high-temperature.png" alt="" class="logos">
+      <p id="feels" class="desc">Temperature</p>
+      <p id="tempvalue" class="feelsvalue">25 Degrees</p>
+    </div>
+
+    <!-- windspeed container  -->
+    <div id="windspeed" class="box">
+      <img src="images/wind.png" alt="" class="logos">
+      <p id="windy" class="desc">WindSpeed</p>
+      <p id="windvalue" class="speedvalue">20C</p>
+    </div>
+
+    <!-- Humidity container -->
+    <div id="humidity" class="box">
+      <img src="images/humidity.png" alt="" class="logos">
+      <p id="humid" class="desc">Humidity</p>
+      <p id="humidval" class="humidvalue">20C</p>
+    </div>
+  </div>
+
+  <script src="WeatherApp.js"></script>
+</body>
+
+</html>
